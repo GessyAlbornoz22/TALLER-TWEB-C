@@ -1,0 +1,44 @@
+li {
+    color: red
+}
+
+.fuente {
+    color: blue;
+    font-family: myFuente;
+}
+
+.gessy {
+    color: white;
+    margin-right: 28px
+}
+
+.container {
+    position: relative;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex
+}
+
+.fila {
+    display: flex;
+}
+#foto-principal{
+    height: 200px;
+    width: 200px;
+}
+.foto-galeria{
+    height: 400px;
+    width: 300px;
+    padding: mx-auto d-bloc;
+}
+@font-face {
+    font-family: myFuente;
+    src: url(/FUENTES/Better\ Together\ Script.ttf);
+  }
+
